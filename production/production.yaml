@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: hello
-  namespace: lasample
+  namespace: hieunc
   labels:
     app: hello
 spec:
@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: hello
-        image: linuxacademycontent/gitops:hellov1.3
+        image: hieunc/hello:1.0
