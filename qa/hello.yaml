@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: hello
-        image: hieunc/hellov:1.0
+        image: hieunc/hello:1.0
